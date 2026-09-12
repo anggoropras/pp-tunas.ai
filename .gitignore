@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Legal documents
+*.pdf
+*.PDF
+data/raw/
+data/processed/
+
+# Vector databases
+vector_db/
+chroma_db/
+chroma/
+faiss_index/
+*.faiss
+*.pkl
+
+# Logs / cache
+*.log
+logs/
+.cache/
+.tmp/
+tmp/
+.streamlit/secrets.toml
